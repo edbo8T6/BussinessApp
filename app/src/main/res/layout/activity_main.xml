@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:src="@drawable/schoolpic4"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:src="@drawable/schoolpic3"
+        android:layout_alignParentTop="true"
+        android:id="@+id/pic3"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="275dp"
+        android:layout_height="375dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/schoolpic1"
+        android:layout_alignParentBottom="true"
+        android:alpha=".75"
+        android:id="@+id/imageView" />
+
+
+
+    <TextView
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="@string/Address"
+        android:autoLink="map"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView"/>
+
+    <TextView
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="@string/tel_650_555_5555"
+        android:layout_marginTop="105dp"
+        android:autoLink="phone"/>
+
+    <TextView
+        style="@style/Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pic3"
+        android:text="@string/http_www_udacity_com"
+        android:layout_marginTop="145dp"
+        android:autoLink="web"/>
+
+    <TextView
+        style="@style/Signature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Business Info Text Style -->
+    <style name="Info" parent="@style/Theme.AppCompat">
+        <!-- Business Info Text Size -->
+        <item name="android:textSize">20sp</item>
+        <!-- Business Info Text Right Margin -->
+        <item name="android:layout_marginRight">5dp</item>
+        <!-- Business Info Text Font Type -->
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <!-- Business Info Text Font Style -->
+        <item name="android:textStyle">bold</item>
+        <!-- Business Info Text Align to Parent Right -->
+        <item name="android:layout_alignParentRight">true</item>
+
+    </style>
+
+    <!-- Signature at the Bottom of "Our Mission" Text Style -->
+    <style name="Signature" parent="@style/Theme.AppCompat">
+        <!-- Signature Text Size -->
+        <item name="android:textSize">25sp</item>
+        <!-- Signature Text Left Margin -->
+        <item name="android:layout_marginLeft">130dp</item>
+        <!-- Signature Cursive Font -->
+        <item name="android:fontFamily">cursive</item>
+        <!-- Signature Text Align to Parent Bottom -->
+        <item name="android:layout_alignParentBottom">true</item>
+        <!-- Signature Text Bottom Margin -->
+        <item name="android:layout_marginBottom">75dp</item>
+    </style>
+
+</resources>
